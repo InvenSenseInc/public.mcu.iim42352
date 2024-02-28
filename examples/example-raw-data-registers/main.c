@@ -63,7 +63,6 @@
 /* 
  * Set this to 0 if you want to test timestamping mechanism without CLKIN 32k capability.
  * Please set a hardware bridge between PA17 (from MCU) and CLKIN pins (to ICM).
- * Warning: This option is not available for all IIM423XX. Please check the datasheet.
  */
 #define USE_CLK_IN 0
 
